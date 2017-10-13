@@ -407,6 +407,14 @@ input[type=text]:focus
         color: black;
     }
 }
+
+@media (max-width: 1320px) 
+{
+    #banner-left, #banner-right
+    {
+        display: none;
+    }
+}
 /*-------------------------------------------------------- LAPTOP MEDIA --------------------------------------------------------*/
 
 .a1html
