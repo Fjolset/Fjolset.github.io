@@ -12,11 +12,6 @@ body
 .dethele {
     margin: 8px 0 auto auto;
     
-    margin-left: 12%;
-    margin-right: 12%;
-    
-    box-shadow: 4px 0 15px -4px, -4px 0 15px -4px;
-    
 }
 
 #banner-left
@@ -392,7 +387,7 @@ input[type=text]:focus
 
 /*-------------------------------------------------------- LAPTOP MEDIA --------------------------------------------------------*/
 
-@media (max-width: 1400px) 
+@media (max-width: 5000px) 
 {
     .a1-text
     {
