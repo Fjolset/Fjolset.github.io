@@ -1,123 +1,112 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<title>Gaming General</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	
-	 <link rel="icon" href="images/logo.png">
-    
-    
-    
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
-    <meta name="description" content="Gaming General er et spil-magasin med spil og spil-udvikler relateret artikler. Hold dig opdateret her!">
-    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0">
+    <title>Vinstuen</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="icon" href="images/icon.png">
+    <meta name="keywords" content="vinstuen, bar, århus, aarhus, bodega, øl, vin, shots, quiz, bordfodbold, turnering, hyggelig, god stemning, studievenlig,">
+    <meta name="description" content="Vinstuen er den ældste bar i Aarhus, og er et populært samlingsted for studerende i Aarhus midtby. Events, priser og evt. information om Vinstuen finder du her!">
 </head>
-<body>
-    
-    <img id="banner-left" src="images/banner-right.jpg" alt="left banner" width="235" height="1000">
-<div class="banner-right">
-    <img id="banner-right" src="images/banner-left.jpg" alt="right banner" width="235" height="1000">
-</div>
-    <div class="dethele">
-    
-        
-    <div class="gradient">
-        
-        <img id="gradient-up-left" src="images/up-left.png" alt="gradient" width="200px">
-        
-        <img id="gradient-up-right" src="images/up-right.png" alt="gradient" width="200px">
-        
-        <img id="gradient-down-left" src="images/down-left.png" alt="gradient" width="200px">
-        
-        <img id="gradient-down-right" src="images/down-right.png" alt="gradient" width="200px">
-        
-    </div>
-    
-    <form>
-        <input type="text" name="search" placeholder="Search..">
-    </form>
-    
-    
-    
-    
-    <div class="header">
-        <a href="index.html">
-            <img src="images/header.png" alt="header" width="400">
+
+
+<body class="moerk_baggrund">
+
+    <header>
+        <a href="index.html" id="logo_boks">
+            <div id="vinstuen_logo">
+                <img id="logo2" src="images/vinstue_logo.png"  alt="vinstuens logo">
+            </div>
         </a>
-    
-    </div>
-    
-    <div class="nav">
-        <ul>
-            <li> <a id="active-site" href="index.html">Home</a></li>
-            <li> <a href="about.html">About</a></li>
-            <li> <a href="contact.html">Contact</a></li>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="index.html" class="current">Forside</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="priser.html">Priser</a></li>
+            <li><a href="om_vinstuen.html">Om Vinstuen</a></li>
         </ul>
+    </header>
+    <div id="forside_billede">
+        <img src="images/forside_billede2.png" alt="4 fulderikker på Vinstuen - billedet brugt med tilladelse af: Maria Olsson">
     </div>
-   
-    <div class="articles">
-        <a href="a1.html"> 
-            <img id="a1" src="images/ascendArticle.jpg" alt="Tribes Ascend picture" width="800">
-                
-            <h1 class="a1-text">Fra bug til Feature</h1> 
-        </a>
+    <div id="forside_mobil">
+        <img src="images/baggrund-mobil3.jpg" alt="3 øl og stemingshygge - billedet brugt med tilladelse af: ASja Secerb">
     </div>
-       
-    
-    <div id="a1p">
-        <p>Tribes er et skydespil lavet og produceret af Hi-Rez Studios i 1998. Spillet foregår i fremtiden i år 2471, hvilket gjorde at man var udrustet med jetpacks, fremtids-rifler der kunne skyde med laser, flyvende tanks og ikke mindst plasma granater. Spillet lignede umiddelbart hvilket som helst andet fremtids skydespil, men det ændrede sig da spillerne faldt over en fejl i spillet, der ændrede spillet for altid.</p>
-        
-    </div>
-    
-     <div class="articles">
-        <a href="a2.html">
-            <img id="a2" src="images/poe.jpg" alt="Tribes Ascend Picture" width="800">
-    
-            <h1 class="a2-text">Path of Exile - Anmeldelse</h1> 
-        </a>
-    </div>
-    
-    <div id="a1p">
-        <p>Spillet, Path of Exile er lavet og produceret af et lille spilfirma kaldet Grinding Gear Games,bedre kendt som GGG. De bor og arbejder alle i New Zealand, hvor de i de sidste 7 år har arbejdet på Path of Exile. Spillet har allerede været i Closed Beta, derefter Open Beta, og blev d. 23 Oktober 2016 officielt udgivet til offentligheden som et Free-to-play ARPG (Action Role-playing Game).</p>
-        
-    </div>
-    
-    <div class="articles">
-        <a href="a3.html">
-            <img id="a3" src="images/jane.jpg" alt="Jane Mcgonigal" width="800">
-    
-            <h1 class="a3-text">Computerspil og motivation</h1> 
-        </a>
-    </div>
-    
-   
-    
-     <div id="a1p">
-        <p>I februar 2010 holdte Jane McGonigal, en spil-designer der har lavet online spil i over 10 år, et foredrag i Talkshowet Ted Talks, der tillader almene folk at komme ud med deres idéer og oplevelser foran et stort publikum, imens de bliver optaget til hele verden at se. Her forklarer hun hvordan det at spille computer dagligt, kan gøre verden til et bedre sted. Hun kommer specifikt med 4 overordnede emner, som hun mener spil gør os rigtig gode til. De 4 emner er: Urgent Optimism, Social Fabric, Blissful Productivity, og Epic Meaning.</p>
-        
-    </div>
-    
-    
-    
-   
+    <!–– Billede taget af Asja Secerbegovic, og brugt med hendes tilladelse ––>
+
+    <section class="forside_bokse">
+
+        <section id="popquiz">
+            <h1>POPQUIZ</h1>
+            <p>Popquiz med Steiner hver onsdag kl. 19</p>
+            <div class="laes_mere_roed">
+                <a href="events.html#anchor_popquiz">Læs mere</a>
+            </div>
+        </section>
+
+        <section id="bordfodbold">
+            <h1>BORDFODBOLD</h1>
+            <h2>TURNERING</h2>
+            <p>Hver torsdag afholder vi turnering i bordfodbold kl. 21</p>
+            <div class="laes_mere_graa">
+                <a href="events.html#anchor_bordfodbold">Læs mere</a>
+            </div>
+        </section>
+
+    </section>
+
+    <section id="shots">
+        <h1>10 SMÅ SURE 100,-</h1>
+        <p>KOM RIGTIGT IGANG</p>
+        <img src="images/shots.png" alt="10 shots">
+    </section>
+
+    <section class="forside_bokse">
+
+        <section id="priser_forside">
+            <h1>PRISER</h1>
+            <p>Se vores studievenlige priser her</p>
+            <div class="laes_mere_graa">
+                <a href="priser.html">Se mere</a>
+            </div>
+        </section>
+
+        <section id="lej_vinstuen">
+            <h1>HOLD FEST HOS OS</h1>
+            <p>Vil du låne Vinstuen til at holde din næste fest, så giv os et kald</p>
+            <div class="laes_mere_roed">
+                <a href="kontakt.html#anchor">Læs mere</a>
+            </div>
+        </section>
+
+    </section>
+
     <footer>
-        <ul>
-            <li id="footer-logo">GG </li>
-            <li>Email: amwow@live.dk</li>
-            <li>Lokation: Ålykkevej 45</li>
-            <li>Kontakt: 00 00 00 00</li>
-        </ul>
+        <section id="footer_pc">
+            <p>Fiskergyde 15 | 8000 Aarhus C | Denmark | &#9742; 86 12 10 37 | &#9993; info@vinstuen.com</p>
+        </section>
+        
+        <section id="footer_mobil">
+            <div id="footer_adresse">
+                <p>Fiskergyde 15</p>
+                <p>8000 Aarhus C</p>
+                <p>Denmark</p>
+                <br>
+                <p>&#128241; 86 12 10 37</p>
+                <p>&#9993; info@vinstuen.com</p>
+            </div>
+        </section>
+        
+        <div id="facebook">
+            <a href="https://www.facebook.com/Vinstuen/" target="_blank"><img src="images/facebook.png" alt="facebook logo"></a>
+        </div>
         
     </footer>
-        
-        </div>
-    
-
-
-
-
-
-
 </body>
+
 </html>

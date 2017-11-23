@@ -1,2 +1,1 @@
-# Fjolset.github.io
-Online Magasin
+# vinstuen.github.io
